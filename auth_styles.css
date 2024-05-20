@@ -1,0 +1,77 @@
+body {
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/5baf8325-ed69-40b0-b9d2-d8c5d2bde3b0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.form {
+    background-color: #fff;
+    padding: 2rem; /* Augmente la marge intérieure */
+    max-width: 90%; /* Augmente la largeur maximale du formulaire */
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    margin: auto; /* Centre le formulaire horizontalement */
+}
+
+.form-title {
+    font-size: 1.5rem; /* Augmente la taille de la police */
+    line-height: 2rem; /* Augmente l'espacement entre les lignes */
+    font-weight: 600;
+    text-align: center;
+    color: #000;
+}
+
+.input-container input,
+.form button {
+    outline: none;
+    border: 1px solid #e5e7eb;
+    margin: 12px 0; /* Augmente la marge entre les champs */
+    padding: 1.5rem; /* Augmente la taille du champ */
+    font-size: 1rem; /* Augmente la taille de la police du champ */
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.input-container input {
+    background-color: #fff;
+}
+
+.submit {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background-color: #4F46E5;
+    color: #ffffff;
+    font-size: 1rem; /* Augmente la taille de la police du bouton */
+    line-height: 1.5rem; /* Augmente l'espacement entre les lignes du bouton */
+    font-weight: 500;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+    width: 100%; /* Utilisation d'un pourcentage pour la largeur du bouton */
+}
+
+.signup-link {
+    color: #6B7280;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    text-align: center;
+}
+
+.signup-link a {
+    text-decoration: underline;
+}
+
+/* Media queries pour la mise en page responsive */
+@media only screen and (min-width: 768px) {
+    .form {
+        max-width: 500px; /* Ajustement de la largeur maximale pour les écrans plus larges */
+    }
+}
